@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea3</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="contenedor-titulo">
+        <img src="./img/pizza.png" alt="logo" class="logo" />
+        <h2 class="titulo">Tarea E3- BUSCA TU PIZZA!!!</h2>
+      </div>
+      <div class="contenedor-padre">
+        <div class="contenedor-ids">
+          <label for="input-number"><img src="./img/lupa.svg" alt="" /></label>
+          <input
+            id="input-number"
+            name="input-number"
+            type="number"
+            placeholder="Ingresá un Id-Pizzas Valido"
+          />
+          <button class="boton-agregar" onclick="buscarPizza()">Buscar</button>
+        </div>
+        <div class="text-error"></div>
+      </div>
+
+      <div class="contenedor" class="error"></div>
+    </section>
+
+    <footer class="footer">
+      <img class="footer-img" src="./img/Imagen11.png" alt="" />
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
